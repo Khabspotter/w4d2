@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer type="module" src="classes.js"></script>
+        <script defer type="module" src="const.js"></script>
+        <script defer type="module" src="addRandom.js"></script>
+        <script defer type="module" src="search.js"></script>
+        <script defer type="module" src="user.js"></script>
+        <title>Pokemon App</title>
+    </head>
+    <body>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Введите имя</h3>
+                <form class="login">
+                    <input name="userName" />
+                    <button type="submit">Ok</button>
+                </form>
+            </div>
+        </div>
+        <button id="add"></button>
+        <form class="search">
+            <input name="pokemonName" />
+            <button type="submit"></button>
+        </form>
+        <div class="welcome-msg">
+            <h1>HELLO USER ????</h1>
+            <button>Clear</button>
+        </div>
+        <div class="card-list">
+            <div class="card">
+                <div class="image">
+                    <img src="./assets/Pikachu.jpeg" />
+                </div>
+                <div class="properties">
+                    <h3>Pikachu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="description">
+                    <p>mollitia aspernatur corrupti quae sint. mollitia aspernatur corrupti quae sint. mollitia aspernatur corrupti quae</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
